@@ -370,15 +370,3 @@ Este proyecto es software de código abierto. El dataset pertenece a Environment
 
 **Repositorio original**: [https://github.com/satyabratasen/ECTA](https://github.com/satyabratasen/ECTA)
 
-## 👥 Autores
-
-- **Usuario** - Reproducción y mejoras del paper
-- **Sen et al.** - Paper original y código base
-
-## 📧 Contacto
-
-Para preguntas o sugerencias sobre este proyecto, por favor abre un issue en GitHub.
-
----
-
-**⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub!**

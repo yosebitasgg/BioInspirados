@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# TensorFlow
+*.h5
+*.hdf5
+*.pb
+checkpoints/
+logs/
+tensorboard_logs/
+
+# Data (uncomment if dataset is large and stored externally)
+# data/*.xlsx
+# data/*.csv
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Model weights (if too large)
+# *.weights
+# models/*.h5
+
+# Results (keep CSV but ignore large output files)
+# results/*.png
+# results/*.jpg
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code
+.claude/

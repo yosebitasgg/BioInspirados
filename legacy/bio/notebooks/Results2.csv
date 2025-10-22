@@ -1,0 +1,3 @@
+,Generation,Parameters,learning_rate,MAPE,generation
+0,,80-500-0.0025,,0.05425674832195813,0.0
+1,,80-500-0.0025,,0.03420917396250533,1.0

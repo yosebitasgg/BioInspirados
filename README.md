@@ -6,7 +6,7 @@
 
 Reproducción mejorada del paper **"Comparative Evaluation of Metaheuristic Algorithms for Hyperparameter Selection in Short-Term Weather Forecasting"** ([arXiv:2309.02600](https://arxiv.org/abs/2309.02600)) con implementación de Genetic Algorithm (GA), Differential Evolution (DE) y Particle Swarm Optimization (PSO) para optimización de hiperparámetros en redes neuronales aplicadas a predicción de temperatura.
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto reproduce y mejora los experimentos del paper de Sen et al. (2023), implementando correcciones críticas y feature engineering avanzado para lograr mejor desempeño que el paper original:
 
@@ -27,7 +27,7 @@ Este proyecto reproduce y mejora los experimentos del paper de Sen et al. (2023)
 6. ✅ **Población y generaciones aumentadas**: 10 individuos × 10 generaciones (vs. 2×2 estimado en código base)
 7. ✅ **Métricas ampliadas**: MAPE + MAE + MSE + RMSE + R²
 
-## 🎯 Resultados Principales
+##  Resultados Principales
 
 ### Comparación de Métodos
 
@@ -46,7 +46,7 @@ Este proyecto reproduce y mejora los experimentos del paper de Sen et al. (2023)
 - **RMSE**: 1.349°C
 - **R²**: 0.931 (93% de varianza explicada)
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 Bio-Inspirados/
@@ -58,7 +58,7 @@ Bio-Inspirados/
 │   └── ECTA 2023 Dataset.xlsx         # Dataset Ottawa 2010-2020 (96,360 registros)
 │
 ├── notebooks/
-│   ├── ANN_&_GA.ipynb                 # ⭐ Notebook principal (GA mejorado)
+│   ├── ANN_&_GA.ipynb                 #  Notebook principal (GA mejorado)
 │   ├── ANN_Differential_Evolution_Notebook.ipynb
 │   ├── ANN_PSO_Notebook.ipynb
 │   ├── Results.csv                    # Resultados Grid Search (32 configs)
@@ -84,7 +84,7 @@ Bio-Inspirados/
 └── legacy/                            # Código original del repositorio
 ```
 
-## 🚀 Instalación
+##  Instalación
 
 ### Prerrequisitos
 
@@ -138,7 +138,7 @@ jupyter notebook notebooks/ANN_&_GA.ipynb
 - Celdas 1-16: Carga y exploración de datos
 - Celdas 17-21: Feature engineering
 - Celdas 22-33: Configuración de GA
-- Celdas 34-37: Ejecución de GA (⚠️ ~2-3 horas en CPU)
+- Celdas 34-37: Ejecución de GA ( ~2-3 horas en CPU)
 - Celdas 38-51: Evaluación y métricas
 - Celdas 52-56: Visualizaciones
 
@@ -174,7 +174,7 @@ epoch_list = [8, 200, 500, 527, 652, 860, 1000]
 learning_rate_list = [0.75, 0.5, 0.25, 0.1, 0.05, 0.01, 0.005, 0.001, 0.0005, 0.0001]
 ```
 
-## 📊 Cómo Generar las Figuras del Reporte
+##  Cómo Generar las Figuras del Reporte
 
 ### Figura 1: Predicción vs. Real (24 horas)
 
@@ -258,11 +258,11 @@ plt.savefig('../figures/residual_analysis.png', dpi=300, bbox_inches='tight')
 plt.show()
 ```
 
-## 📝 Descripción de Archivos Principales
+##  Descripción de Archivos Principales
 
 ### Notebooks
 
-- **`ANN_&_GA.ipynb`** ⭐: Implementación principal con todas las mejoras
+- **`ANN_&_GA.ipynb`** : Implementación principal con todas las mejoras
   - Feature engineering completo (19 features)
   - Genetic Algorithm con elitismo
   - Grid Search baseline
@@ -293,7 +293,7 @@ plt.show()
 - **`DELIVERABLE_E_*`**: Discusión y conclusiones (LaTeX)
 - **`DELIVERABLE_F_*`**: Resumen final, snippets LaTeX, y referencias BibTeX
 
-## 🔧 Configuración del Sistema
+##  Configuración del Sistema
 
 ### Hardware Utilizado
 
@@ -324,7 +324,7 @@ else:
     print("No hay GPU disponible. Usando CPU.")
 ```
 
-## 📚 Dataset
+##  Dataset
 
 ### ECTA 2023 Dataset
 
@@ -343,7 +343,7 @@ else:
 - **Test**: 2016 (1 año) → Para evaluación de fitness en GA
 - **Prediction**: 2017 (1 año) → Para evaluación final y métricas reportadas
 
-## 🤝 Contribuciones
+##  Contribuciones
 
 Este proyecto es parte de un trabajo académico para el curso de Algoritmos Bio-Inspirados. Las contribuciones son bienvenidas:
 
@@ -353,11 +353,11 @@ Este proyecto es parte de un trabajo académico para el curso de Algoritmos Bio-
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es software de código abierto. El dataset pertenece a Environment and Climate Change Canada.
 
-## 📖 Referencias
+##  Referencias
 
 ```bibtex
 @article{sen2023comparative,
